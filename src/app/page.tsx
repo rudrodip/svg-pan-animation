@@ -8,7 +8,7 @@ export default function Home() {
       </h1>
       <span className="text-sm text-center mt-2">inspired from <a href="https://linear.app/plan" className="underline">linear</a></span>
       <div className="flex justify-center items-center gap-5 mt-3">
-        <a href="https://github.com/rudrodip/linear-svg-scroll" target="_blank" className="px-4 py-1 rounded-lg border border-zinc-500 bg-background">Github</a>
+        <a href="https://github.com/rudrodip/svg-pan-animation" target="_blank" className="px-4 py-1 rounded-lg border border-zinc-500 bg-background">Github</a>
         <a href="https://x.com/rds_agi" target="_blank" className="px-4 py-1 rounded-lg border border-zinc-500 bg-background">X / Twitter</a>
       </div>
       <div
