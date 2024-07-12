@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Interactive SVG Pan Animation
 
-## Getting Started
+> [!NOTE]
+> This demo was inspired from [Linear](https://linear.app/plan). I wanted to create a similar effect using SVG and Framer Motion.
 
-First, run the development server:
+**Live link**: [svg-pan-animation.vercel.app](https://svg-pan-animation.vercel.app)
+
+[![demo](.github/assets/demo.gif)](https://svg-pan-animation.vercel.app/)
+
+## Tech
+
+- Next.js
+- Framer Motion
+
+## How it works
+
+- make a container div
+- render the svg
+- transform the container div: `rotateX(someDeg)`
+- transform the svg to your needs
+- add `motion` to the svg
+- add `onPan` event listener to the svg
+- update the svg's `rotateZ` value accordingly
+- and tada!! 🎉
+
+## Get started
+
+> [!IMPORTANT]
+> You can use any package manager you like. I'm using `bun` here.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# clone the repo
+git clone https://github.com/rudrodip/svg-pan-animation.git
+cd svg-pan-animation
+
+# install dependencies
+bun install
+
+# run the dev server
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details.
