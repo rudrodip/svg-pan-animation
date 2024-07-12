@@ -12,14 +12,12 @@
     "framer-motion": "^11.3.2",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "react-howler": "^5.2.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/react-howler": "^5.2.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
